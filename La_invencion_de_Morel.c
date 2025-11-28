@@ -94,6 +94,21 @@ int main(){
             printf("Tehlike bitti. Sağlığın:%d\n",saglik);
             break;
 
+
+
+            case'E':
+            {
+            printf("Sağlığın:%d\n",saglik);
+            printf("Enerji:%d\n",enerji);
+            printf("Yemek miktarı:%d\n",yemek_sayisi);
+            if(siginak==1){
+                printf("Sığınağın var.");
+            }else{
+                printf("Sığınağın yok.");
+            }
+             break;
+       
+            }  
             case 'P':
             {
                 int sifre;
